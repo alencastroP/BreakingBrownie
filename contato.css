@@ -1,0 +1,58 @@
+header {
+    background: #1d251c;
+    padding: 20px 0 20px 0;
+}
+.abas{
+    border: 2px solid #ffffff;
+    padding: 7px 10px 7px 10px ;
+}
+
+.caixa{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+nav {
+    position: absolute;
+    top: 43%;
+    right: 40px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color:#565656;
+    text-decoration: underline;
+}
+
+#logo {
+    width: 13%;
+    padding-left: 3%;
+}
+
+footer{
+    text-align: center;
+    background: #1d251c;
+    padding-bottom: 10px;
+}
+
+.copyright{
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.logoFooter{
+    width: 8%;
+    margin-top: 20px;
+}
