@@ -64,20 +64,26 @@ nav a:hover {
     text-decoration: underline;
 }
 
-main {
-    font-family: 'Sublima', Times, Serif;
-    margin: 5% 0 10% 10%;
+h2 {
+    font-size: 25px;
 }
 
-main ul {
+.quemSomos {
+    font-family: 'Sublima', Times, Serif;
+    margin: 5% 0 10% 10%;
     display: inline-block;
     vertical-align: top;
     width: 40%;
 }
+.quemSomos h2{
+    margin-bottom: 5%;
+}
+.quemSomos ul {
+    margin-left: 1%;
+}
 
 .brownieMain {
-    width: 30%;
-    position: relative;
+    width: 20%;
 }
 
 

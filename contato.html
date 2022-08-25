@@ -5,7 +5,7 @@
         <meta charset="UTF-8">
         <title> Breaking Brownie </title>
         <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="contato.css">
     </head>
 
     <body>
@@ -26,7 +26,80 @@
         </div>
 
         <main>
- 
+            
+            <form>
+                <fieldset>
+
+                    <label for="nomeesobrenome">Nome e Sobrenome</label>
+                    <input type="text" id="nomeesobrenome" class="inputPadrao" required placeholder="Seu nome">
+
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" class="inputPadrao" required placeholder="endereço@dominio">
+
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" id="telefone" class="inputPadrao" required placeholder="(xx) x xxxx-xxxx">
+
+                    <label for="mensagem">Mensagem</label>
+                    <textarea cols="60" rows="10" class="inputPadrao"></textarea>
+
+                </fieldset>
+                <fieldset>
+
+                    <legend>Como prefere o nosso contato?</legend>
+
+                    <label for="radioEmail"><input type="radio" name="contato" value="email" id="radioEmail">E-mail</label>
+                    
+                    <label for="radioTelefone"><input type="radio" name="contato" value="telefone" id="radioTelefone">Telefone</label>
+                    
+                    <label for="radioWhatsapp"><input type="radio" name="contato" value="whatsapp" id="radioWhatsapp">Whatsapp</label>
+
+                </fieldset>
+
+                <fieldset>
+
+                    <legend>Em qual horário deseja ser atendido?</legend>
+                    <select>
+                        <option>Manhã</option>
+                        <option>Tarde</option>
+                        <option>Noite</option>
+                    </select>
+
+                </fieldset>
+
+                <label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por e-mail?</label>
+
+
+                <input type="submit" value="Enviar formulário" class="enviar">
+
+            </form>
+
+            <table>
+
+                <thead>
+                    <tr>
+                        <th>Dia</th>
+                        <th>horário</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Seg e Ter</td>
+                        <td>17h30 - 21h00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Qua</td>
+                        <td>Fechados</td>
+                    </tr>
+
+                    <tr>
+                        <td>Qui e Sex</td>
+                        <td>17h30 - 21h00</td>
+                    </tr>
+                </tbody>
+            </table>
+
         </main>
 
         <footer>
