@@ -69,6 +69,15 @@ main {
     margin: 0 auto;
 }
 
+h2 {
+    font-family: 'Aileron', Times, Serif;
+    font-weight: bold;
+    font-size: 28px;
+    text-decoration: none;
+    margin-top: 5%;
+    padding-bottom: 2%;
+}
+
 form {
     margin: 40px 0;
 }
@@ -110,6 +119,7 @@ form label, form legend {
 
 table {
     margin: 20px 0 40px;
+    margin-left: 157px;
 }
 
 thead {

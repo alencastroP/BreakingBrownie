@@ -1,3 +1,5 @@
+/*Fontes*/
+
 @font-face {
     font-family: 'Aileron';
     src: url('fonts/Aileron-Black.otf') format('opentype');
@@ -20,9 +22,16 @@
 }
 
 header {
+    font-family: 'Aileron', Times, Serif;
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
     background: #1d251c;
     padding: 20px 0 20px 0;
 }
+
+/*  Header Styles  */
 
 #logo {
     width: 10%;
@@ -52,9 +61,6 @@ nav li {
 }
 
 nav a {
-    font-family: 'Aileron', Times, Serif;
-    color:rgb(255, 255, 255);
-    font-weight: bold;
     font-size: 18px;
     text-decoration: none;
 }
@@ -64,33 +70,48 @@ nav a:hover {
     text-decoration: underline;
 }
 
-h2 {
-    font-size: 25px;
-}
+/*  Main Styles  */
 
-.quemSomos {
+.quemSomos, .nossoObjetivo {
     font-family: 'Sublima', Times, Serif;
     margin: 5% 0 10% 10%;
     display: inline-block;
     vertical-align: top;
     width: 40%;
 }
+.quemSomos {
+    margin-left: 15%;
+    margin-right: 0%;
+}
 .quemSomos h2{
+    margin-top: 32%;
     margin-bottom: 5%;
+    font-size: 25px;
 }
-.quemSomos ul {
-    margin-left: 1%;
+.nossoObjetivo {
+    margin-left: 12%;
+}
+.nossoObjetivo h4{
+    margin-top: 40%;
+    margin-bottom: 5%;
+    font-size: 25px;
+    display: flex;
 }
 
-.brownieMain {
-    width: 20%;
+#brownieMain {
+    width: 35%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    display: inline-block;
 }
-
-
-
-
-
-
+ #brownieNO {
+    width: 35%;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    display: inline-block;
+ }
+/*  Footer Styles  */
 footer{
     text-align: center;
     background: #1d251c;
